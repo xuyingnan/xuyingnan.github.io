@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    background-color: #DEDEDE;
+
+}
+
+/*header begin*/
+header {
+    height: 60px;
+    background-color: #333;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    height: 40px;
+    left: 40px;
+    top: 30px;
+    margin-top: -20px;
+
+}
+
+header nav {
+    position: absolute;
+    right: 20px;
+    height: 20px;
+    top: 30px;
+    margin-top: -10px;
+
+}
+
+header ul li {
+    float: left;
+    width: 100px;
+    padding: 0 5px;
+}
+
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font: 14px/20px "微软雅黑";
+    text-align: center;
+}
+
+header ul li:last-child a {
+    color: #989C9B;
+}
+
+article, aside {
+    width: 96.665%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+/*header end*/
+
+/*article begin*/
+
+h1 {
+    margin: 10px 0;
+    font-family: "黑体";
+}
+
+h2 {
+    margin: 20px 0 0;
+    font-size: 19px;
+    color: #888387;
+    font-family: "黑体";
+}
+
+article div span {
+    font: normal 14px/40px "黑体";
+    color: #888387;
+}
+
+article p {
+    text-indent: 2em;
+    line-height: 1.5rem;
+    font-family: "黑体";
+}
+
+article img {
+    margin: 17px 0;
+}
+
+article ul li {
+    list-style: none;
+    line-height: 1.5rem;
+    font-family: "黑体";
+
+}
+
+article dl dd {
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    margin: 15px 38px;
+
+}
+
+article dl dd p {
+    text-indent: 0;
+}
+
+article dl dd img {
+    width: 100%;
+}
+
+article ol {
+    margin: 0 0 20px 38px;
+    font-family: "黑体";
+    line-height: 1.5rem;
+}
+
+.myTable {
+    font-family: "黑体";
+    line-height: 1.5rem;
+}
+
+.myTable table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.myTable th, .myTable td {
+    border: 1px solid #c8c8c8;
+}
+
+.myTable thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.myTable tbody td {
+    padding: 0 5px;
+}
+
+.myTable tbody tr:last-child {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+/*article end*/
+
+/*aside begin*/
+aside {
+    overflow: hidden;
+}
+
+aside h1 {
+    height: 40px;
+    border-left: 3px solid #888387;
+    padding-left: 15px;
+    font: bold 18px/40px "黑体";
+}
+
+aside table {
+    margin: 0 30%;
+    width: 80%;
+}
+
+aside table td {
+    padding: 5px;
+    font: normal 14px/20px "黑体";
+}
+
+aside table td:first-child {
+    text-align: right;
+}
+
+.tips {
+    color: #989C9B;
+}
+
+aside table tr:last-child td:first-child {
+    vertical-align: top;
+}
+
+aside table textarea {
+    width: 800px;
+    height: 60px;
+}
+
+aside div {
+    margin: 10px auto;
+    width: 98%
+}
+
+aside div input {
+    width: 100%;
+    text-align: center;
+    background-color: #3355d0;
+    color: #fff;
+    border-radius: 5px;
+    font: normal 18px/40px "黑体";
+    border: none;
+}
+
+/*aside begin*/
